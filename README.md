@@ -1,16 +1,17 @@
 # hygenTemplates
 collection of my personal hygen templates
+Install hygen globally.
 ```
 npm i -g hygen
 ```
 
+Set an alias on your `.zshrc`:
 ```
-# .zshrc
-
-alias hg=HYGEN_TMPLS=~/.hygen/_templates/
+alias hg="HYGEN_TMPLS=~/.hygen/_templates/ hygen"
 ```
 
-## CPP
+## CPP Commands
+
 init cpp project cmake
 ```
 hg cpp init [--name projectName]
