@@ -1,6 +1,6 @@
 # hygenTemplates
 collection of my personal hygen templates
-Install hygen globally.
+Install [hygen](https://www.hygen.io/) globally.
 ```
 npm i -g hygen
 ```
@@ -11,6 +11,10 @@ alias hg="HYGEN_TMPLS=~/.hygen/_templates/ hygen"
 ```
 
 ## CPP Commands
+Youtube video of the setup:
+
+[![CPP-VSCodeSetup](https://img.youtube.com/vi/MsJmAMvNYwI/0.jpg)](https://www.youtube.com/watch?v=MsJmAMvNYwI)
+
 
 init cpp project cmake
 ```
