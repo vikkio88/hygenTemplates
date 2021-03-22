@@ -1,7 +1,6 @@
 ---
 to: ./CMakeLists.txt
 ---
-
 cmake_minimum_required(VERSION 3.16)
 
 project(<%= name %>)
@@ -10,17 +9,19 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib") 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
 
-# the -I flag in gcc
+# the -I flag in compiler
 include_directories(
   ${PROJECT_SOURCE_DIR}/include/
 ) 
 
-set(APP_SOURCES src/main.cpp)
+set(APP_SOURCES 
+  src/main.cpp
+)
 set(LIB1_LIB_SOURCES 
   include/lib1/Stuff.cpp
 )
 
-# creates ./build/bin/APP
+# creates ./build/bin/<%= name %>
 add_executable(${PROJECT_NAME} ${APP_SOURCES})
 
 # shared libraries
