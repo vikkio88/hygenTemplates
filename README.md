@@ -21,27 +21,27 @@ simple cmake
 hg cpp cmake
 ```
 
-new class+hpp
+add cpp file to cmake
 ```
-hg cpp class --name stuff --folder src
+hg cpp cmakeAdd filename [--folder src] [--entry main.cpp]
 ```
 
-new class+hpp with namespace
+new class+hpp
 ```
-hg cpp nsClass --name stuff --ns test --folder src
+hg cpp class [--name:]theclassname [--folder src] [--ns namespace] [--cmake] [--entry src/main.cpp]
 ```
 
 new file
 ```
-hg cpp file --name file --folder src
+hg cpp file [--name:] filename [--folder src] [--cmake] [--entry src/main.cpp]
 ```
 
-new header
+new header file
 ```
-hg cpp header --name someStuff --folder src
+hg cpp header [--name:] someStuff [--folder src]
 ```
 
 new main
 ```
-hg cpp main --folder src
+hg cpp main [--folder src]
 ```
