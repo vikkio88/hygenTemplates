@@ -1,5 +1,5 @@
 ---
-to: include/lib1/Stuff.cpp
+to: "<%= lib ? `include/lib1/Stuff.cpp` : null %>"
 ---
 #include "Stuff.hpp"
 

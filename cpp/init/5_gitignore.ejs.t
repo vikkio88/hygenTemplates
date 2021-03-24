@@ -1,4 +1,5 @@
 ---
 to: .gitignore
 ---
-build/
+build/*
+!build/.gitkeep

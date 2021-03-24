@@ -1,5 +1,5 @@
 ---
-to: include/lib1/Stuff.hpp
+to: "<%= lib ? `include/lib1/Stuff.hpp` : null %>"
 ---
 #pragma once
 

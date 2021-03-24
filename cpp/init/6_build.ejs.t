@@ -1,3 +1,3 @@
 ---
-to: build/empty
+to: build/.gitkeep
 ---
