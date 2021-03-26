@@ -3,8 +3,8 @@ to: src/main.cpp
 ---
 <% if (lib) { -%>
 #include "lib1/Stuff.hpp"
-<% } -%>
 
+<% } -%>
 #include <iostream>
 
 int main()
