@@ -1,7 +1,7 @@
 ---
 to: <%= folder %>/<%= Name %>.js
 ---
-import "./styles/<%= Name %>.css";
+import './styles/<%= Name %>.css';
 
 const <%= Name %> = () => {
     return (

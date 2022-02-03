@@ -4,4 +4,4 @@ to: <%= folder %>/index.js
 inject: true
 before: "export { default as"
 ---
-export { default as <%= Name %> } from "./<%= Name %>";
+export { default as <%= Name %> } from './<%= Name %>';
