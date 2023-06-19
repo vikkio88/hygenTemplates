@@ -1,5 +1,5 @@
 ---
-to: <%= folder %>/<%= name %>_view.go
+to: <%= folder %>/view_<%= name %>.go
 ---
 package <%= folder %>
 
