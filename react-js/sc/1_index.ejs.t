@@ -1,6 +1,6 @@
 ---
 unless_exists: false
-to: <%= folder %>/index.tsx
+to: <%= folder %>/index.js
 inject: true
 before: "export { default as"
 ---

@@ -1,8 +1,9 @@
 ---
-to: <%= folder %>/<%= Name %>.js
+to: <%= folder %>/<%= Name %>.tsx
 ---
-const <%= Name %> = () => {
+type Props = {
+
+};
+export default function <%= Name %>({}: Props){
     return <h3><%= Name %></h3>;
 };
-
-export default <%= Name %>;

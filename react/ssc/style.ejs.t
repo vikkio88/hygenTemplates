@@ -1,6 +1,6 @@
 ---
-to: <%= folder %>/styles/<%= Name %>.css
+to: <%= folder %>/styles/<%= Name %>.module.css
 ---
-.<%= Name %>-wrapper{
-    display: flex;
+.<%= Name %>{
+    padding: .5rem
 }

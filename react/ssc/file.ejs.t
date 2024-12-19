@@ -1,14 +1,11 @@
 ---
-to: <%= folder %>/<%= Name %>.js
+to: <%= folder %>/<%= Name %>.tsx
 ---
-import './styles/<%= Name %>.css';
+import s from './styles/<%= Name %>.module.css';
 
-const <%= Name %> = () => {
-    return (
-        <div className="<%= Name %>-wrapper">
-            <%= Name %>
-        </div>
-    );
+type Props = {
+
 };
-
-export default <%= Name %>;
+export default function <%= Name %>({}: Props){
+    return <h3><%= Name %></h3>;
+};
