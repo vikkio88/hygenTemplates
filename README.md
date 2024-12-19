@@ -5,6 +5,15 @@ Install [hygen](https://www.hygen.io/) globally.
 npm i -g hygen
 ```
 
+```
+mkdir ~/.hygen && cd .hygen
+```
+
+Clone this repo as `_templates`
+```
+git clone git@github.com:vikkio88/hygenTemplates.git _templates
+```
+
 Set an alias on your `.zshrc`:
 ```
 alias hg="HYGEN_TMPLS=~/.hygen/_templates/ hygen"
