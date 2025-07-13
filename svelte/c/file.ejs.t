@@ -2,9 +2,8 @@
 to: <%= folder %>/<%= Name %>.svelte
 ---
 <script lang="ts">
-    type Props = {
-
-    };
-    const {} = $props();
+  type Props = {};
+  const {}: Props = $props();
 </script>
+
 <h3><%= Name %></h3>;
