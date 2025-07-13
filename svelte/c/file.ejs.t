@@ -6,4 +6,4 @@ to: <%= folder %>/<%= Name %>.svelte
   const {}: Props = $props();
 </script>
 
-<h3><%= Name %></h3>;
+<h3><%= Name %></h3>
