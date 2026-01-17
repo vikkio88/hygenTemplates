@@ -1,8 +1,7 @@
 ---
 to: <%= folder %>/<%= Name %>.tsx
+description: A simple react component in typescript
 ---
-import s from './styles/<%= Name %>.module.css';
-
 type Props = {
 
 };

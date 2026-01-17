@@ -1,4 +1,0 @@
----
-to: <%= name %>/.gitignore
----
-build/

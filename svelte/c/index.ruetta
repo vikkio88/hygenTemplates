@@ -1,5 +1,6 @@
 ---
 to: <%= folder %>/<%= Name %>.svelte
+description: A Simple Svelte component
 ---
 <script lang="ts">
   type Props = {};

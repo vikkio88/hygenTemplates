@@ -1,5 +1,6 @@
 ---
 to: <%= folder %>/view_<%= name %>.go
+description: A fyne view
 ---
 package <%= folder %>
 
