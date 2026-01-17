@@ -1,0 +1,18 @@
+---
+description: Store scaffolding
+to: <%- folder %>/<%= name %>.svelte.ts
+---
+class <%= Name %> {
+    #<%= name %> = $state();
+
+    get <%= name %>() {
+        return this this.#name;
+    }
+    set <%= name %>(value: string) {
+        this.#<%= name %> = value;
+    }
+}
+
+const <%= name %>Store = new <%= Name %>();
+
+export default <%= name %>Store;
