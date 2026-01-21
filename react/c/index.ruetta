@@ -1,5 +1,5 @@
 ---
-to: <%= folder %>/<%= Name %>.tsx
+to: <%- folder %>/<%= Name %>.tsx
 description: A simple react component in typescript
 ---
 type Props = {

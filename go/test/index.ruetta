@@ -1,5 +1,5 @@
 ---
-to: <%= folder %>/<%= name %>_test.go
+to: <%- folder %>/<%= name %>_test.go
 description: An Empty Go test with testify/assert
 ---
 package <%= folder %>_test

@@ -1,5 +1,5 @@
 ---
-to: <%= folder %>/<%= name %>.go
+to: <%- folder %>/<%= name %>.go
 description: A go file that defines a struct and a constructor
 ---
 package <%= folder %>
