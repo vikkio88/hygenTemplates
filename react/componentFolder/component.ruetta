@@ -1,0 +1,10 @@
+---
+to: <%- folder %>/<%= Name %>.tsx
+description: A simple react component in typescript
+---
+type Props = {
+
+};
+export function <%= Name %>({}: Props){
+    return <h3><%= Name %></h3>;
+};

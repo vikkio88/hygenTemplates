@@ -1,0 +1,4 @@
+---
+description: a simple typescript file within a folder
+to: <%- folder %>/<%= name %>.ts
+---

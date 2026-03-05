@@ -1,0 +1,8 @@
+---
+to: <%- folder %>/index.ts
+description: A simple react component exported within an index in typescript
+append: true
+files:
+    - component
+---
+export { <%= Name %> } from "./<%= Name %>.tsx"
